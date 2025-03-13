@@ -43,7 +43,7 @@ jobs:
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         env:
-          GITHUB_TOKEN: ${"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"}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           # 部署文档
           branch: my_docs
