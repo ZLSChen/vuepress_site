@@ -43,9 +43,7 @@ export default navbar([
                 text: '标记',
                 children:
                     [
-                        { text: 'HTML', link: 'https://code.iglooblog.top/html/1.html' },
-                        { text: 'Markdown', link: 'https://1m29yg5p67.k.topthink.com/@markdown' },
-                        { text: 'CSS', link: 'https://code.iglooblog.top/css/1.html' }
+                        { text: 'HTML', link: 'https://code.iglooblog.top/html/1.html' }
                     ]
             },
         ],
